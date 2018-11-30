@@ -18,7 +18,7 @@ A Java library for people who want to implement some algorithms quickly.
 
 # Docs
 
-- SievePrimesAlgorithm
+- **SievePrimesAlgorithm**
 
 This class helps you to find if a number is prime or not, for number upto 1 million, within a millisecond. 
 
@@ -43,7 +43,7 @@ public static void main(String[] args){
 }
 ```
 
-- NumOccurencesOfCharacters
+- **NumOccurencesOfCharacters**
 
 This class helps you find number of characters in a String of your choice. You can find number of occurences of a character of your own choice or you can find number of occurences of all characters individually.
 
@@ -75,6 +75,32 @@ public static void main(String[] args){
 }
 ```
 
-**New additions will be on roll**
+- **Divisors**
+
+This class finds all the divisors of the number of your choice in O(n) time, the time complexity will soon be decreased even furthur.
+
+To use this class, just make a simple object of `Divisors` class and call `findDivisors()` method which returns you an `ArrayList<Integer>` which contains all the divisors of the number in ascending order.
+
+```
+public ArrayList<Integer> findDivisors(int number){
+	// returns ArrayList of all the divisors of the number sorted in ascending order
+}
+```
+
+Example code, for understanding:
+
+```
+public static void main(String[] args){
+
+     Divisors d = new Divisors();
+		
+     System.out.println(d.findDivisors(10)); // returns [1,2,5,10]
+    
+}
+```
+
+
+
+**New additions will be on roll, keep a look out :)**
   
   

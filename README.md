@@ -14,6 +14,10 @@ A Java library for people who want to implement some algorithms quickly.
 - Divisors
 
   >Find number of divisors of the number of your choice.
+  
+- CheckPrime
+
+  >Check if a number is prime or not, directly and easily.
 
 
 ***

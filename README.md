@@ -2,7 +2,7 @@
 
 A Java library for people who want to implement some algorithms quickly.
 
-**List of Current Algorithms**
+**List of Current Algorithmics' Classes**
 - SievePrimesAlgorithm
 
   >Find a number is prime or not for numbers upto 1 million.
@@ -11,7 +11,9 @@ A Java library for people who want to implement some algorithms quickly.
 
   >Find number of occurences of different/particular character(s) in a string.
   
+- Divisors
 
+  >Find number of divisors of the number of your choice.
 
 
 ***

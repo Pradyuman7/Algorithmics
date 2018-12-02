@@ -5,7 +5,7 @@ A Java library for people who want to implement some algorithms quickly.
 **List of Current Algorithmics' Classes**
 - SievePrimesAlgorithm
 
-  >Find a number is prime or not for numbers upto 1 million.
+  >Find and Generate Prime numbers using Sieve's algorithm.
   
 - NumOccurencesOfCharacters
 
@@ -17,7 +17,7 @@ A Java library for people who want to implement some algorithms quickly.
   
 - CheckPrime
 
-  >Check if a number is prime or not, directly and easily.
+  >Check if a number is prime or not, directly and efficiently.
 
 
 ***

@@ -112,8 +112,8 @@ Sometimes using Sieve's algorithm is much more redundant and we need a quick and
 To use this class, just make a simple object of `CheckPrime` class and call `checkPrime()` method which returns you an `boolean` value corresponding to the number.
 
 ```
-public ArrayList<Integer> findDivisors(int number){
-	// returns ArrayList of all the divisors of the number sorted in ascending order
+public boolean checkPrime(long number){
+	// returns true if the number is prime, otherwise fase
 }
 ```
 
@@ -122,9 +122,9 @@ Example code, for understanding:
 ```
 public static void main(String[] args){
 
-     Divisors d = new Divisors();
-		
-     System.out.println(d.findDivisors(10)); // returns [1,2,5,10]
+    CheckPrime cp = new CheckPrime();
+    
+    System.out.println(cp.checkPrime(999999937)); // gives true as this is the largest 9 digit prime number
     
 }
 ```

@@ -105,6 +105,30 @@ public static void main(String[] args){
 }
 ```
 
+- **CheckPrime**
+
+Sometimes using Sieve's algorithm is much more redundant and we need a quick and even more efficient solution for checking if a number is Prime or not. This is the reason of existence of this class.
+
+To use this class, just make a simple object of `CheckPrime` class and call `checkPrime()` method which returns you an `boolean` value corresponding to the number.
+
+```
+public ArrayList<Integer> findDivisors(int number){
+	// returns ArrayList of all the divisors of the number sorted in ascending order
+}
+```
+
+Example code, for understanding:
+
+```
+public static void main(String[] args){
+
+     Divisors d = new Divisors();
+		
+     System.out.println(d.findDivisors(10)); // returns [1,2,5,10]
+    
+}
+```
+
 
 
 **New additions will be on roll, keep a look out :)**

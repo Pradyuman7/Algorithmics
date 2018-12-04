@@ -18,6 +18,10 @@ A Java library for people who want to implement some algorithms quickly.
 - CheckPrime
 
   >Check if a number is prime or not, efficiently.
+  
+- GetDivSquareSum
+
+>Get sum of squares of divisors of a number efficiently.
 
 
 ***
@@ -129,6 +133,7 @@ public static void main(String[] args){
 }
 ```
 
+- **GetDivSquareSum**
 
 
 **New additions will be on roll, keep a look out :)**

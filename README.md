@@ -17,7 +17,7 @@ A Java library for people who want to implement some algorithms quickly.
   
 - CheckPrime
 
-  >Check if a number is prime or not, directly and efficiently.
+  >Check if a number is prime or not, efficiently.
 
 
 ***

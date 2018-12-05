@@ -135,7 +135,7 @@ public static void main(String[] args){
 
 - **GetDivSquareSum**
 
-Getting the square of sum of divisors of a number is getting too much common in many competetive programming problems, and this becomes a tedious task to do in complexity less than O(n). This is why, this class exists.
+Getting the sum of squares of divisors of a number is getting too much common in many competetive programming problems, and this becomes a tedious task to do in complexity less than O(n). This is why, this class exists.
 
 To use this class, just make a simple object of `GetDivSquareSum` class and call `sumDivSquare()` method which returns you an `long` value corresponding to the sum of the square of the divisors of the number of your choice.
 

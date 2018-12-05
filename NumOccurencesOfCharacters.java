@@ -8,7 +8,7 @@ public class NumOccurencesOfCharacters {
 	
 		public HashMap<Character,Integer> hm = new HashMap<Character,Integer>();
 	
-		public String s;
+		private String s;
 		
 		public void setString(String string) {
 			

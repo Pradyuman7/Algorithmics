@@ -12,7 +12,7 @@ public class SievePrimesAlgorithm {
 		
 		for(int p = 2; p*p <=N; p++) { 
              
-            if(prime[p] == true) { 
+            if(prime[p]) { 
                
                 for(int i = p*2; i <= N; i += p) 
                     prime[i] = false; 
@@ -34,8 +34,11 @@ public class SievePrimesAlgorithm {
 		
 		else {
 			
-			if(prime[n] == true)
-				return true;
+			try{
+				if(prime[n])
+					return true;}catch(ArrayIndexOutOfBoundsException e){
+				e.printStackTrace();
+			}
 			
 		}
 		

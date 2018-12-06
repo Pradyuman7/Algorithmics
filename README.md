@@ -21,7 +21,7 @@ A Java library for people who want to implement some algorithms quickly.
   
 - GetDivSquareSum
 
->Get sum of squares of divisors of a number efficiently.
+  >Get sum of squares of divisors of a number efficiently.
 
 
 ***

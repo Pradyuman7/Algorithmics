@@ -36,7 +36,9 @@ public class SievePrimesAlgorithm {
 			
 			try{
 				if(prime[n])
-					return true;}catch(ArrayIndexOutOfBoundsException e){
+					return true;
+			}
+			catch(ArrayIndexOutOfBoundsException e){
 				e.printStackTrace();
 			}
 			

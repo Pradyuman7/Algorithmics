@@ -30,7 +30,9 @@ A Java library for people who want to implement some algorithms quickly.
 - MaxSubArraySum
 
   >Find the maximum continuous sub array sum in a given array.
-
+  
+- FindMaxSubArrayProduct  
+  >Find the maximum continuous sub array prodyct in a given array of fixed length and no length constraint.
 
 ***
 

@@ -35,7 +35,11 @@ A Java library for people who want to implement some algorithms quickly.
   >Find the maximum continuous sub array prodyct in a given array of fixed length and no length constraint.
 
 ***
+# How to use
 
+To know how to get this library in your project, please refer this **[stackoverflow answer](https://stackoverflow.com/a/31741310)**.
+
+***
 # Docs
 
 - **SievePrimesAlgorithm**

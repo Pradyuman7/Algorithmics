@@ -32,7 +32,7 @@ A Java library for people who want to implement some algorithms quickly.
   >Find the maximum continuous sub array sum in a given array.
   
 - FindMaxSubArrayProduct  
-  >Find the maximum continuous sub array prodyct in a given array of fixed length and no length constraint.
+  >Find the maximum continuous sub array product in a given array of fixed length and no length constraint.
 
 ***
 # How to use
@@ -58,12 +58,11 @@ Example code, for understanding:
 ```
 public static void main(String[] args){
 
-  SievePrimesAlgorithm prime = new SievePrimesAlgorithm();
-  prime.start();
-  .
-  .
-  .
-  System.out.printlnt(prime.isPrime(83478)); // returns false as the number is not prime
+  	SievePrimesAlgorithm prime = new SievePrimesAlgorithm();
+	
+  	prime.start(); // need to call only once per code
+	
+  	System.out.printlnt(prime.isPrime(83478)); // returns false as the number is not prime
 }
 ```
 

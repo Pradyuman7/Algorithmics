@@ -92,9 +92,9 @@ public static void main(String[] args){
 
     NumOccurencesOfCharacters nm = new NumOccurencesOfCharacters();
 		
-		nm.findNumOccurencesOfAllCharacters("hehehe"); // prints number for each character
+    nm.findNumOccurencesOfAllCharacters("hehehe"); // prints number for each character
 		
-		System.out.println(nm.findNumOccurencesOfCharacter("abcadefgh", 'a' )); // prints 2
+    System.out.println(nm.findNumOccurencesOfCharacter("abcadefgh", 'a' )); // prints 2
     
 }
 ```

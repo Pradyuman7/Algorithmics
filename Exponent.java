@@ -1,3 +1,9 @@
+/**
+ * This class offers some static methods, offering ways to calculate the n'th power of a number.
+ * 
+ * @author Juri Dispan
+ *
+ */
 public class Exponent {
 
     /**

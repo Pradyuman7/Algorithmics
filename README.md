@@ -100,7 +100,7 @@ public static void main(String[] args){
 
 - **Divisors**
 
-This class finds all the divisors of the number of your choice in O(n) time, the time complexity will soon be decreased even furthur.
+This class finds all the divisors of the number of your choice in O(n) time, the time complexity will soon be decreased even further.
 
 To use this class, just make a simple object of `Divisors` class and call `findDivisors()` method which returns you an `ArrayList<Integer>` which contains all the divisors of the number in ascending order.
 

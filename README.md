@@ -51,14 +51,14 @@ This class helps you to find if a number is prime or not, for number upto 1 mill
 
 To use this library, just make an object of this class, and call method `start()` in the beginning of your program. After that, just use `isPrime()` method to find boolean value corresponding to the number which is prime or not.
 
-```
+```java
 public boolean isPrime(int number){
   // returns boolean value stating the number is prime or not
 }
 ```
 
 Example code, for understanding:
-```
+```java
 public static void main(String[] args){
 
   	SievePrimesAlgorithm prime = new SievePrimesAlgorithm();
@@ -75,13 +75,13 @@ This class helps you find number of characters in a String of your choice. You c
 
 To use this library, simply make an object of this class, and call `findNumOccurencesOfCharacter( myString, myCharacter)` to find number of occurences of `myCharacter` in `myString`. You can also use the method `findNumOccurencesOfAllCharacters(myString)` to get number of occurences of all characters present in `myString`.
 
-```
+```java
 public int findNumOccurencesOfCharacter(String myString, char myCharacter){
   // returns int stating the number of occurences of myCharacter in myString
 }
 ```
 
-```
+```java
 public void findNumOccurencesOfAllCharacters(String myString){
   // prints number of occurences of each character
 }
@@ -89,7 +89,7 @@ public void findNumOccurencesOfAllCharacters(String myString){
 
 Example code, for understanding
 
-```
+```java
 public static void main(String[] args){
 
     NumOccurencesOfCharacters nm = new NumOccurencesOfCharacters();
@@ -107,7 +107,7 @@ This class finds all the divisors of the number of your choice in O(n) time, the
 
 To use this class, just make a simple object of `Divisors` class and call `findDivisors()` method which returns you an `ArrayList<Integer>` which contains all the divisors of the number in ascending order.
 
-```
+```java
 public ArrayList<Integer> findDivisors(int number){
 	// returns ArrayList of all the divisors of the number sorted in ascending order
 }
@@ -115,7 +115,7 @@ public ArrayList<Integer> findDivisors(int number){
 
 Example code, for understanding:
 
-```
+```java
 public static void main(String[] args){
 
      Divisors d = new Divisors();
@@ -131,7 +131,7 @@ Sometimes using Sieve's algorithm is much more redundant and we need a quick and
 
 To use this class, just make a simple object of `CheckPrime` class and call `checkPrime()` method which returns you an `boolean` value corresponding to the number.
 
-```
+```java
 public boolean checkPrime(long number){
 	// returns true if the number is prime, otherwise fase
 }
@@ -139,7 +139,7 @@ public boolean checkPrime(long number){
 
 Example code, for understanding:
 
-```
+```java
 public static void main(String[] args){
 
     CheckPrime cp = new CheckPrime();
@@ -155,7 +155,7 @@ Getting the sum of squares of divisors of a number is getting too much common in
 
 To use this class, just make a simple object of `GetDivSquareSum` class and call `sumDivSquare()` method which returns you an `long` value corresponding to the sum of the square of the divisors of the number of your choice.
 
-```
+```java
 public long sumDivSquare(int num){
 	// returns sum of squares of the divisors of the num
 }
@@ -163,7 +163,7 @@ public long sumDivSquare(int num){
 
 Example code, for understanding:
 
-```
+```java
 public static void main(String[] args){
 
     GetDivSquareSum gd = new GetDivSquareSum();
@@ -179,7 +179,7 @@ Searching for a particular number's existence in an array has always been one of
 
 To use this class, just make a simple object of `BinarySearch(int[] array)` class and call `search()` method which returns you the boolean value stating the value exists in the array or not.
 
-```
+```java
 public boolean search(int num){
 	// returns true or false depending on the existence of the number in the array
 }
@@ -187,7 +187,7 @@ public boolean search(int num){
 
 Example code, for understanding:
 
-```
+```java
 public static void main(String[] args){
 
 	int[] arr = {1,5,3,14,2,12,7,6};
@@ -205,7 +205,7 @@ Searching for a maximum sum of continuous sub-arrays in a given array is fastly 
 
 To use this class, just make a simple object of `MaxSubArraySum(int[] array)` class and call `getSum()` method which returns you the int value (taking into account for positive and negative numbers) corresponding to the maximum sum of subarrays in your given array.
 
-```
+```java
 public boolean getSum(){
 	// returns maximum continuous sub-array sum for your desired array
 }
@@ -213,7 +213,7 @@ public boolean getSum(){
 
 Example code, for understanding:
 
-```
+```java
 public static void main(String[] args){
 
 	int[] arr = {1,-2,3,-2,5};
@@ -231,7 +231,7 @@ Searching for a maximum product of continuous elements of an array is also very 
 
 To use this class, just make a simple object of `FindMaxSubArrayProduct(int[] array)` class and call `findMaxProduct()` method which returns you the max sub array product for the whole array.
 
-```
+```java
 public boolean findMaxProduct(){
 	// returns maximum continuous sub-array product for your desired array
 }
@@ -239,7 +239,7 @@ public boolean findMaxProduct(){
 
 There is also another method which lets you find maximum product of `k` element subarrays in your array. It's structure looks like this:
 
-```
+```java
 public boolean findMaxProduct(int k){
 	// returns maximum continuous sub-array of length k product for your desired array
 }
@@ -247,7 +247,7 @@ public boolean findMaxProduct(int k){
 
 Example code, for understanding:
 
-```
+```java
 public static void main(String[] args){
 
 	int[] arr = {1,-2,3,-2,5};

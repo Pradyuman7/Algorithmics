@@ -33,6 +33,9 @@ A Java library for people who want to implement some algorithms quickly.
   
 - FindMaxSubArrayProduct  
   >Find the maximum continuous sub array product in a given array of fixed length and no length constraint.
+  
+- Exponent
+  >Calculate exponents of natural numbers.
 
 ***
 # How to use
@@ -257,6 +260,22 @@ public static void main(String[] args){
     
 }
 ```
+
+
+- **Exponent**
+
+This class offers some static methods, offering ways to calculate the n'th power of a number. Usage is rather trivial as shown below:
+
+```java
+public static void main(String[] args){
+
+	System.out.println(Exponent.modExp(2163, 1231, 32)); // 27, runs in <1 ms on my machine
+    
+}
+```
+
+The most interesting utility function offered is the `modExp` function, because it can calculate powers to a certain modulus in constant time. 
+
 
 **New additions will be on roll, keep a look out :)**
   

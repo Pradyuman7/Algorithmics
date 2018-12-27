@@ -276,6 +276,7 @@ public static void main(String[] args){
 
 The most interesting utility function offered is the `modExp` function, because it can calculate powers to a certain modulus in constant time. 
 
+**Do you want to have a specific algorithm to be included? Convey your thoughts/algorithms by raising an issue**
 
 **New additions will be on roll, keep a look out :)**
   

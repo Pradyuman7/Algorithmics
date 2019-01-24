@@ -47,9 +47,9 @@ To know how to get this library in your project, please refer this **[stackoverf
 
 ***
 
-## Licence
+## License
 
-**Algorithmics** is under an [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT). See **[Licence](License.md)** for more info.
+**Algorithmics** is under an [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT). See **[License](License.md)** for more info.
 
 *****
 ## Docs

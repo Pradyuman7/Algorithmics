@@ -2,7 +2,7 @@
 
 A Java library for people who want to implement some algorithms quickly.
 
-**List of Current Algorithmics' Classes**
+## List of Current Algorithmics' Classes
 - SievePrimesAlgorithm
 
   >Find and Generate Prime numbers using Sieve's algorithm.
@@ -41,12 +41,19 @@ A Java library for people who want to implement some algorithms quickly.
   >Find number of occurences of a smaller string in a bigger string
 
 ***
-# How to use
+## How to use
 
 To know how to get this library in your project, please refer this **[stackoverflow answer](https://stackoverflow.com/a/31741310)**.
 
 ***
-# Docs
+***
+
+## Licence
+
+**Algorithmics** is under an [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT). See **[Licence](License.md)** for more info.
+
+*****
+## Docs
 
 - **SievePrimesAlgorithm**
 

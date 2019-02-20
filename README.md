@@ -1,5 +1,7 @@
 # Algorithmics
 
+[![Pager](https://img.shields.io/badge/Pradyuman7-Algorithmics-red.svg?style=plastic)](https://github.com/Pradyuman7/Algorithmics)
+
 A Java library for people who want to implement some algorithms quickly.
 
 ## List of Current Algorithmics' Classes
@@ -49,7 +51,7 @@ To know how to get this library in your project, please refer this **[stackoverf
 
 ## License
 
-**Algorithmics** is under an [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT). See **[License](License.md)** for more info.
+**Algorithmics** is under [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT). See **[License](License.md)** for more info.
 
 *****
 ## Docs

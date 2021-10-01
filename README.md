@@ -42,18 +42,15 @@ A Java library for people who want to implement some algorithms quickly.
 - FindPhrase
   >Find number of occurences of a smaller string in a bigger string
 
-***
 ## How to use
 
 To know how to get this library in your project, please refer this **[stackoverflow answer](https://stackoverflow.com/a/31741310)**.
 
-***
 
 ## License
 
 **Algorithmics** is under [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT). See **[License](License.md)** for more info.
 
-*****
 ## Docs
 
 - **SievePrimesAlgorithm**

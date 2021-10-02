@@ -1,3 +1,4 @@
+package Algorithms;
 import java.util.ArrayList;
 
 public class Divisors {

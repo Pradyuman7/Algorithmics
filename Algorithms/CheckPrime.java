@@ -1,3 +1,4 @@
+package Algorithms;
 public class CheckPrime {
 	
 	public boolean checkPrime(long num) {

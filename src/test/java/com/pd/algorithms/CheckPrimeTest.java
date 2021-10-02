@@ -17,35 +17,35 @@ public class CheckPrimeTest {
 
     @Test
     @DisplayName("2 is only even prime")
-    void binarySearchWithDuplicates() {
+    void checkPrimFor2() {
         CheckPrime cp = new CheckPrime();
         assertTrue(cp.checkPrime(2));
     }
 
     @Test
     @DisplayName("5 is prime")
-    void binarySearchWithEmptyArray() {
+    void checkPrimFor5() {
         CheckPrime cp = new CheckPrime();
         assertTrue(cp.checkPrime(5));
     }
   
     @Test
     @DisplayName("6 is not prime")
-    void binarySearchWithEmptyArray() {
+    void checkPrimFor6() {
         CheckPrime cp = new CheckPrime();
         assertFalse(cp.checkPrime(6));
     }
 
     @Test
     @DisplayName("9 is not prime")
-    void binarySearchWithEmptyArray() {
+    void checkPrimFor9() {
         CheckPrime cp = new CheckPrime();
         assertFalse(cp.checkPrime(9));
     }
   
     @Test
     @DisplayName("127 is prime")
-    void binarySearchWithEmptyArray() {
+    void checkPrimFor127() {
         CheckPrime cp = new CheckPrime();
         assertTrue(cp.checkPrime(127));
     }

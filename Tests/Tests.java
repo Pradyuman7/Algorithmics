@@ -1,5 +1,8 @@
+package Tests;
+import Algorithms.NumOccurencesOfCharacters;
+import Algorithms.SievePrimesAlgorithm;
 
-public class test {
+public class Tests {
 
 	public static void main(String[] args) {
 		
@@ -17,9 +20,6 @@ public class test {
 		nm.findNumOccurencesOfAllCharacters("hehehe");
 		
 		System.out.println(nm.findNumOccurencesOfCharacter("abcadefgh", 'a' ));
-		
-		
-		
 	}
 	
 }

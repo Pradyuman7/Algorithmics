@@ -4,7 +4,7 @@
 
 A Java library for people who want to implement some algorithms quickly.
 
-## List of Current Algorithmics' Classes
+## List of Current Algorithmics' Classes (inside package Algorithms)
 - SievePrimesAlgorithm
 
   >Find and Generate Prime numbers using Sieve's algorithm.
@@ -41,6 +41,9 @@ A Java library for people who want to implement some algorithms quickly.
   
 - FindPhrase
   >Find number of occurences of a smaller string in a bigger string
+
+- Find2DMatrixSum
+  >Find sum of 2d matrix with long and int return types
 
 ## How to use
 

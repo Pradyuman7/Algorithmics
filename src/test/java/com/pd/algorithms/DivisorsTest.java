@@ -30,6 +30,8 @@ public class DivisorsTest {
     void checkDivisorsFor24() {
         Divisors div = new Divisors();
         List<Integer> expected = Arrays.asList(1, 2, 3, 4, 6, 8, 12, 24);
-        assertEquals(div.findDivisors(24), expected);
+        List<Integer> divs = div.findDivisors(24);
+        Collections.sort(divs);
+        assertEquals(divs, expected);
     }
 }

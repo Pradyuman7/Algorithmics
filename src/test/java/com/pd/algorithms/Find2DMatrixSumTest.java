@@ -32,7 +32,7 @@ public class Find2DMatrixSumTest {
         };
       
         Find2DMatrixSum mSum = new Find2DMatrixSum(arr);
-        assertEquals(mSum.findSumOfMatrix(), 35);
+        assertEquals(mSum.findSumOfMatrix(), 45);
     }
   
     @Test

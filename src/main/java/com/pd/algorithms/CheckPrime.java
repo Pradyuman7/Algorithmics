@@ -2,6 +2,9 @@ package com.pd.algorithms;
 public class CheckPrime {
 	
 	public boolean checkPrime(long num) {
+		if (num == 1) {
+			return true;
+		}
 		
 		if (num > 2 && num%2 == 0 ) {
             

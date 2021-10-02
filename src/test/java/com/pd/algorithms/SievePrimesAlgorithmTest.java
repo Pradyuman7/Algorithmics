@@ -1,11 +1,11 @@
-package Tests;
-import Algorithms.NumOccurencesOfCharacters;
-import Algorithms.SievePrimesAlgorithm;
+package com.pd.algorithms;
 
-public class Tests {
+import org.junit.jupiter.api.Test;
 
-	public static void main(String[] args) {
-		
+public class SievePrimesAlgorithmTest {
+
+	@Test
+	void primesAlgorithm() {
 		
 		SievePrimesAlgorithm sp = new SievePrimesAlgorithm();
 		

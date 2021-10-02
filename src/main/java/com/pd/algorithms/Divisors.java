@@ -1,4 +1,4 @@
-package Algorithms;
+package com.pd.algorithms;
 import java.util.ArrayList;
 
 public class Divisors {

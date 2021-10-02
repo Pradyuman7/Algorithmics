@@ -45,6 +45,6 @@ public class Find2DMatrixSumTest {
         };
       
         Find2DMatrixSum mSum = new Find2DMatrixSum(arr);
-        assertEquals(mSum.findLongSumOfMatrix(), 8589934588);
+        assertEquals(mSum.findLongSumOfMatrix(), 8589934588L);
     }
 }

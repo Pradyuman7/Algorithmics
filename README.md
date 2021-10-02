@@ -56,10 +56,7 @@ To know how to get this library in your project, please refer this **[stackoverf
 
 ## Contributions
 
-Do you want to contribute to Algorithmics? Awesome, there're not many rules but just a few things to consider before making a PR:
-1. Please make the contributions real (no simple whitespace addition/removal or typos) i.e. contribute significantly
-2. Want to add a new algorithm of your choice? Look at any one of the files in here and add your code that can be used
-3. Have fun!!
+Do you want to contribute to Algorithmics? Awesome, there're not many rules but just a few things to consider before making a PR, just refer Contributing.MD
 
 ## Documentation
 

@@ -1,4 +1,4 @@
-package Algorithms;
+package com.pd.algorithms;
 
 public class Find2DMatrixSum {
 	

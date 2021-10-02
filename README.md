@@ -46,8 +46,7 @@ A Java library for people who want to implement some algorithms quickly.
   >Find sum of 2d matrix with long and int return types
 
 ## How to use
-
-To know how to get this library in your project, please refer this **[stackoverflow answer](https://stackoverflow.com/a/31741310)**.
+Migrated to a maven project now, thanks to @sliard.
 
 
 ## License

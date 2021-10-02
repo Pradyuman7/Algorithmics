@@ -6,7 +6,7 @@ import static org.junit.jupiter.api.Assertions.assertTrue;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 
-public class BinarySearchTest {
+public class CheckPrimeTest {
     
     @Test
     @DisplayName("1 is neither prime nor composite")

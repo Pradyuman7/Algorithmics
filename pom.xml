@@ -25,6 +25,12 @@
             <version>${junit.jupiter.version}</version>
             <scope>test</scope>
         </dependency>
+        <!-- JitPack -->
+        <dependency>
+	   <groupId>com.github.Pradyuman7</groupId>
+	   <artifactId>Algorithmics</artifactId>
+	   <version>Tag</version>
+        </dependency>
     </dependencies>
 
     <build>

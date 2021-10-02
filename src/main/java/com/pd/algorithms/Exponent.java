@@ -15,7 +15,7 @@ public class Exponent {
      * @param mod The modulus.
      * @return (base^exp) % mod
      */
-    public static int modExp(int base, int exp, int mod) {
+    public int modExp(int base, int exp, int mod) {
         long d = 1;
         for (int i = 31; i >= 0; i--) {
             d = (d * d) % mod;
@@ -33,7 +33,7 @@ public class Exponent {
      * @param exp The exponent.
      * @return base^exp
      */
-    public static int pow(int base, int exp) {
+    public int pow(int base, int exp) {
         int res = 1;
         while (exp-- > 0) {
             res *= base;
@@ -48,7 +48,7 @@ public class Exponent {
      * @param exp The exponent.
      * @return base^exp
      */
-    public static long pow(long base, long exp) {
+    public long pow(long base, long exp) {
         long res = 1;
         while (exp-- > 0) {
             res *= base;

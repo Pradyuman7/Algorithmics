@@ -1,6 +1,8 @@
 package com.pd.algorithms;
+
 /**
- * This class offers some static methods, offering ways to calculate the n'th power of a number.
+ * This class offers some static methods, offering ways to calculate the n'th
+ * power of a number.
  * 
  * @author Juri Dispan
  *
@@ -11,8 +13,8 @@ public class Exponent {
      * Exponent modulus some value, O(1).
      * 
      * @param base The base.
-     * @param exp The exponent.
-     * @param mod The modulus.
+     * @param exp  The exponent.
+     * @param mod  The modulus.
      * @return (base^exp) % mod
      */
     public int modExp(int base, int exp, int mod) {
@@ -30,7 +32,7 @@ public class Exponent {
      * Calculates the exp'th power of base.
      * 
      * @param base The base.
-     * @param exp The exponent.
+     * @param exp  The exponent.
      * @return base^exp
      */
     public int pow(int base, int exp) {
@@ -45,7 +47,7 @@ public class Exponent {
      * Calculates the exp'th power of base.
      * 
      * @param base The base.
-     * @param exp The exponent.
+     * @param exp  The exponent.
      * @return base^exp
      */
     public long pow(long base, long exp) {

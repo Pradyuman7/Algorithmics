@@ -1,25 +1,42 @@
 package com.pd.algorithms;
 
+import static org.junit.jupiter.api.Assertions.assertTrue;
+import static org.junit.jupiter.api.Assertions.assertFalse;
+
 import org.junit.jupiter.api.Test;
 
 public class SievePrimesAlgorithmTest {
 
 	@Test
-	void primesAlgorithm() {
-		
+	void testPrimeLessThan10() {
 		SievePrimesAlgorithm sp = new SievePrimesAlgorithm();
-		
 		sp.start();
 		
-		for(int i=0;i<20;i++)
-			System.out.println(i+" being prime is "+sp.isPrime(i));
+		assertTrue(sp.isPrime(2));
+		assertTrue(sp.isPrime(3));
+		assertTrue(sp.isPrime(5));
+		assertTrue(sp.isPrime(7));
+	}
+	
+	@Test
+	void testNoPrimeLessThan10() {
+		SievePrimesAlgorithm sp = new SievePrimesAlgorithm();
+		sp.start();
 		
-		NumOccurencesOfCharacters nm = new NumOccurencesOfCharacters();
+		assertFalse(sp.isPrime(1));
+		assertFalse(sp.isPrime(4));
+		assertFalse(sp.isPrime(6));
+		assertFalse(sp.isPrime(9));
+	}
+	
+	@Test
+	void testLargePrimesAndComposites() {
+		SievePrimesAlgorithm sp = new SievePrimesAlgorithm();
+		sp.start();
 		
-		
-		nm.findNumOccurencesOfAllCharacters("hehehe");
-		
-		System.out.println(nm.findNumOccurencesOfCharacter("abcadefgh", 'a' ));
+		assertTrue(sp.isPrime(7853));
+		assertTrue(sp.isPrime(7919));
+		assertFalse(sp.isPrime(83478));
 	}
 	
 }

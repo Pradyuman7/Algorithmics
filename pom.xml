@@ -16,6 +16,12 @@
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
         <junit.jupiter.version>5.5.2</junit.jupiter.version>
     </properties>
+    <repositories>
+	<repository>
+	<id>jitpack.io</id>
+	<url>https://jitpack.io</url>
+	</repository>
+    </repositories>
 
     <dependencies>
         <!-- Junit -->
@@ -27,9 +33,9 @@
         </dependency>
         <!-- JitPack -->
         <dependency>
-	   <groupId>com.github.Pradyuman7</groupId>
-	   <artifactId>Algorithmics</artifactId>
-	   <version>Tag</version>
+	    <groupId>com.github.Pradyuman7</groupId>
+	    <artifactId>Algorithmics</artifactId>
+	    <version>Tag</version>
         </dependency>
     </dependencies>
 

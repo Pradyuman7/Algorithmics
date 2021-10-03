@@ -30,13 +30,13 @@ public class SievePrimesAlgorithmTest {
 	}
 	
 	@Test
-	void testLargePrimes() {
+	void testLargePrimesAndComposites() {
 		SievePrimesAlgorithm sp = new SievePrimesAlgorithm();
 		sp.start();
 		
 		assertTrue(sp.isPrime(7853));
 		assertTrue(sp.isPrime(7919));
-		assertTrue(sp.isPrime(83478));
+		assertFalse(sp.isPrime(83478));
 	}
 	
 }

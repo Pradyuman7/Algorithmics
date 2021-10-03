@@ -16,9 +16,7 @@ public class CheckPrime {
                 return false;
             }
         }
-        return true;
-		
-		
+        return true;	
 	}
 
 }

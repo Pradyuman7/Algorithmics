@@ -1,6 +1,6 @@
 # Algorithmics
 
-[![Pager](https://img.shields.io/badge/Pradyuman7-Algorithmics-red.svg?style=plastic)](https://github.com/Pradyuman7/Algorithmics)
+![Algorithmics](https://github.com/Pradyuman7/Algorithmics/actions/workflows/main.yml/badge.svg)
 
 A Java library for people who want to implement some algorithms quickly.
 

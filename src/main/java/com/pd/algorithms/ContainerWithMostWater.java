@@ -2,7 +2,7 @@ package com.pd.algorithms;
 
 
 public class ContainerWithMostWater {
-	 public static int maxArea(int[] height) {
+	 public int maxArea(int[] height) {
 	        int area=0;
 	        int start=0;
 	        int end=height.length-1;

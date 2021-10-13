@@ -1,6 +1,6 @@
 package com.pd.algorithms;
 
-public class Mat_Mul_2D {
+public class MatrixMultiplication2D {
 	public int[][] MatrixMult2D(int[][] Mat1, int[][] Mat2) {
 		if(Mat1[0].length == Mat2.length) {
 			int[][] Mat = new int[Mat1.length][Mat2[0].length];
@@ -18,10 +18,10 @@ public class Mat_Mul_2D {
 			return null;
 		}
 	}
-	
+//	Just to have a presentable look ath the matrix
 	public void ShowMat(int[][] Mat) {
 		if(Mat == null) {
-			System.out.println("Matrix is None");
+			System.out.println("Matrix is Null");
 		}else {
 			for(int[] ele:Mat) {
 				for(int i = 0; i<Mat[0].length; i++) {
@@ -31,26 +31,6 @@ public class Mat_Mul_2D {
 				System.out.println();
 			}
 			System.out.println();
-		}
-	}
-	
-	public boolean EqualMat(int[][] Mat1, int[][] Mat2) {
-		if(Mat1 == null || Mat2 == null) {
-			if(Mat1 != null || Mat2 != null) {
-				return false;				
-			}
-		}
-		if(Mat1[0].length == Mat2[0].length && Mat1.length == Mat2.length) {
-			for(int i = 0; i<Mat1.length; i++) {
-				for(int j = 0; j<Mat1[0].length; j++) {
-					if(Mat1[i][j] != Mat2[i][j]) {
-						return false;
-					}
-				}
-			}
-			return true;
-		}else {
-			return false;
 		}
 	}
 }

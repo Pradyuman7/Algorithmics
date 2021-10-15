@@ -30,6 +30,9 @@
 | `Exponent` | Calculate exponents of natural numbers. |
 | `FindPhrase` | Find number of occurences of a smaller string in a bigger string. |
 | `Find2DMatrixSum` | Find sum of 2d matrix with long and int return types. |
+| `CountDistinctElements` | Returns the number of distinct elements in an integer array |
+| `CountSorting` | Returns the sorted array after sorting via count sort algorithm |
+| `MatrixMultiplication2D` | Returns the multiplied matrix (if possible or returns null) |
 
 ## How to use
 

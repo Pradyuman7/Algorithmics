@@ -13,8 +13,12 @@
 | `Exponent` | Calculate exponents of natural numbers. |
 | `FindPhrase` | Find number of occurences of a smaller string in a bigger string. |
 | `Find2DMatrixSum` | Find sum of 2d matrix with long and int return types. |
+| `CountDistinctElements` | Returns the number of distinct elements in an integer array |
+| `CountSorting` | Returns the sorted array after sorting via count sort algorithm |
+| `MatrixMultiplication2D` | Returns the multiplied matrix (if possible or returns null) |
 
 # Detailed Explanation
+You can also refer the tests for all the algorithms in the project for more usage examples.
 
 ## **SievePrimesAlgorithm**
 
@@ -249,7 +253,7 @@ The most interesting utility function offered is the `modExp` function, because 
 
 ## **FindPhrase**
 
-Manytimes we have to find number of times a string is found in a bigger string of our choice, and finding a solution efficiently might take quite a time, on a not-so good day. Hence this class, which helps you find what you're looking for, easily.
+Many times we have to find number of times a string is found in a bigger string of our choice, and finding a solution efficiently might take quite a time, on a not-so good day. Hence this class, which helps you find what you're looking for, easily.
 
 > To use this class, just make a simple object of `FindPhrase` class and call `timesFound(string, phrase)` method which returns you the number of times, phrase was found in the string.
 
@@ -268,5 +272,74 @@ public static void main(String[] args){
 		
 	System.out.println(fp.timesFound("SOSSOSOS", "OS")); // returns 3
     
+}
+```
+
+## **CountDistinctElements**
+
+In various algorithms and softwares, often there's a need to find the distinct elements in an array. This class helps you do exactly that efficiently.
+
+> To use this class, just make a simple object of `CountDistinctElement` class with the integer array of your choice. Then just call `countDistinct()` method which returns you the number of distinct elements in your array from above.
+
+```java
+public int countDistinct() {
+	// returns number of distinct elements in your array
+}
+```
+
+Example code, for understanding:
+
+```java
+public static void main(String[] args){
+
+	int[] arr = new int[]{1, 2, 3, 4, 2, 3,1,5};
+          
+        CountDistinctElements cd = new CountDistinctElements(arr);
+        System.out.println(cd.countDistinct()); // returns 5 as that is the number of distinct elements
+}
+```
+
+## **CountSorting**
+
+In various algorithms and softwares, often there's a need to sort the array. And one of the asymptotically fastest algorithm for sorting is Counting Sort, and this class helps you use exactly that algorithm.
+
+> To use this class, just make a simple object of `CountSorting` class. Then just call `countSort(int n, int[]. arr)` method which returns you the sorted array using the Counting sort algorithm.
+
+```java
+public int[] countSort(int n, int[] arr){
+	// returns the sorted array
+}
+```
+
+Example code, for understanding:
+
+```java
+public static void main(String[] args){
+	int[] arr = { 1, 3, 9, 6, 2, 4};
+        CountSorting cs = new CountSorting();
+        System.out.printn(Arrays.toString(cs.countSort(arr.length, arr)); // returns the sorted array
+}
+```
+
+## **MatrixMultiplication2D**
+
+In various algorithms and softwares, often there's a need to multiply matrices. This class helps you implement exactly that.
+
+> To use this class, just make a simple object of `MatrixMultiplication2D` class. Then just call `MatrixMult2D(int[][] Mat1, int[][] Mat2)` method which returns the multiplied matrix.
+
+```java
+public int[][] MatrixMult2D(int[][] Mat1, int[][] Mat2) {
+	// returns the multiplied matrix
+}
+```
+
+Example code, for understanding:
+
+```java
+public static void main(String[] args){
+	int[][] Mat1 = {{1, 2}, {3, 4}};
+	int[][] Mat2 = {{1, 0}, {0, 1}};
+        MatrixMultiplication2D obj = new MatrixMultiplication2D();
+        System.out.printn(Arrays.deeptToString(obj.MatrixMult2D(Mat1, Mat2)); // returns the multiplied matrix
 }
 ```

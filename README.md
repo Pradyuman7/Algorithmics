@@ -1,6 +1,8 @@
 # Algorithmics
 
-![Algorithmics](https://github.com/Pradyuman7/Algorithmics/actions/workflows/main.yml/badge.svg) [![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](https://github.com/dwyl/esta/issues)[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
+![Algorithmics](https://github.com/Pradyuman7/Algorithmics/actions/workflows/main.yml/badge.svg) 
+[![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](https://github.com/dwyl/esta/issues)
+[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
 
 ### A Java library for people who want to implement some algorithms quickly. :confetti_ball:
 

@@ -30,6 +30,9 @@
 | `Exponent` | Calculate exponents of natural numbers. |
 | `FindPhrase` | Find number of occurences of a smaller string in a bigger string. |
 | `Find2DMatrixSum` | Find sum of 2d matrix with long and int return types. |
+| `CountDistinctElements` | Returns the number of distinct elements in an integer array |
+| `CountSorting` | Returns the sorted array after sorting via count sort algorithm |
+| `MatrixMultiplication2D` | Returns the multiplied matrix (if possible or returns null) |
 
 ## How to use
 
@@ -42,8 +45,7 @@
 
 ## Contributions
 
-Do you want to contribute to Algorithmics? Awesome, there're not many rules but just a few things to consider before making a PR, simply refer to [CONTRIBUTING.md](./CONTRIBUTING.md).
-
+Do you want to contribute to Algorithmics? Awesome, there're not many rules but just a few things to consider before making a PR, simply refer to [CONTRIBUTING.md](./CONTRIBUTING.md) and some guidelines in the available issues.
 
 1. Fork the Project and Clone the repository.
    > `git clone https://github.com/Pradyuman7/Algorithmics.git`
@@ -58,9 +60,4 @@ Do you want to contribute to Algorithmics? Awesome, there're not many rules but 
 Contributions are what make the open source community such an amazing place to be learn, inspire, and create. Any contributions you make are **greatly appreciated**.
 
 ## Documentation
-
-**Kindly refer [Docs.md](./Docs.md) !**
-
-Do you want to have a specific algorithm to be included? Convey your thoughts/algorithms by raising an issue!
-
-**New additions will be on roll, be on the look out! :)**
+Kindly refer [Docs.md](./Docs.md)

@@ -60,5 +60,10 @@ Do you want to contribute to Algorithmics? Awesome, there're not many rules but 
 
 Contributions are what make the open source community such an amazing place to be learn, inspire, and create. Any contributions you make are **greatly appreciated**.
 
+##Checkstyle guide
+
+This repository follows the [Google Java Style Guide](https://google.github.io/styleguide/javaguide.html). Feel free to download formatting presets for your IDE from [Google's GitHub repository](https://github.com/google/styleguide).
+We have set up [checkstyle](https://github.com/Pradyuman7/Algorithmics/blob/master/checkstyle.xml) to enforce them throughout this project. You can check locally if your changes comply with these guidelines by executing the maven goal `compile`. If the build of your Pull Request fails make sure to checkout the logs in the checks of your Pull Request to see what exactly does not comply with our guidelines. If you think that you are still complying with the guidelines, feel free to make corresponding changes to our [checkstyle file](https://github.com/Pradyuman7/Algorithmics/blob/master/checkstyle.xml).
+
 ## Documentation
 Kindly refer [Docs.md](./Docs.md)

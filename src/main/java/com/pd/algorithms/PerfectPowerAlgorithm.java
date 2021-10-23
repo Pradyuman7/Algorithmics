@@ -5,7 +5,7 @@ package com.pd.algorithms;
  */
 public class PerfectPowerAlgorithm {
 
-    public static int[] isPerfectPower(int n) {
+    public int[] isPerfectPower(int n) {
         for (int i = 2; ; i++) {
             int root = (int) Math.round(Math.pow(n, 1.0 / i));
             if (root < 2) return null;

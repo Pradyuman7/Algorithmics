@@ -33,6 +33,7 @@
 | `CountDistinctElements` | Returns the number of distinct elements in an integer array |
 | `CountSorting` | Returns the sorted array after sorting via count sort algorithm |
 | `MatrixMultiplication2D` | Returns the multiplied matrix (if possible or returns null) |
+| `PerfectPowerAlgorithm` | Returns the root and the exponent in an array of size 2 for a given natural number n (or null) |
 
 ## How to use
 

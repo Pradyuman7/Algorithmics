@@ -16,6 +16,7 @@
 | `CountDistinctElements` | Returns the number of distinct elements in an integer array |
 | `CountSorting` | Returns the sorted array after sorting via count sort algorithm |
 | `MatrixMultiplication2D` | Returns the multiplied matrix (if possible or returns null) |
+| `PerfectPowerAlgorithm` | Returns the root and the exponent in an array of size 2 for a given natural number n (or null) |
 
 # Detailed Explanation
 You can also refer the tests for all the algorithms in the project for more usage examples.
@@ -341,5 +342,27 @@ public static void main(String[] args){
 	int[][] Mat2 = {{1, 0}, {0, 1}};
         MatrixMultiplication2D obj = new MatrixMultiplication2D();
         System.out.printn(Arrays.deeptToString(obj.MatrixMult2D(Mat1, Mat2)); // returns the multiplied matrix
+}
+```
+
+## **PerfectPowerAlgorithm**
+
+Finds the root and the exponent for a given natural number n
+
+> To use this class, just write PerfectPowerAlgorithm.isPerfectPower(n) inside the main class
+
+```java
+public int[] isPerfectPower(int n) {
+        //returns the result in a array form of size two
+}
+```
+
+Example code, for understanding:
+
+```java
+public static void main(String[] args){
+        PerfectPowerAlgorithm perfectPower = new PerfectPowerAlgorithm();
+        System.out.println(perfectPower.isPerfectPower(0));
+        // returns int array of size two or null otherwise
 }
 ```

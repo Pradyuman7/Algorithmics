@@ -3,12 +3,9 @@
 Adding new algorithms is always appreciated by us. Just consider a few things before making a PR:
 
 1. Please make the contributions real (no simple whitespace addition/removal or typos) i.e. contribute significantly
-2. Want to add a new algorithm of your choice? Look at any one of the files in here and add your code that can be used. Also please add unit tests for your code
-3. Make sure the pipeline succeeds for your PR
-4. Have fun!!!
+2. Add any important and usable algorithm of your choice (make the method non-static and public in your public class)
+3. Add unit tests for your code and take a look if your code style matches that of the project
+4. Make sure the pipeline succeeds for your PR
+5. Have fun!!!
 
-## How to contribute
-
-Just fork this repository, add the algorithm with suitable name and `.java` extension file. Create a pull request, and that's it.
-
-We'll take care of the rest :)
+*P.S. if you have any doubts regarding the addition of your algorithm, please create an issue and we can discuss it*

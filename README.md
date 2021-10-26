@@ -13,6 +13,7 @@ A Java library for people who want to implement some algorithms quickly. :confet
   - [How to Use](#how-to-use)
   - [License](#license)
   - [Contributions](#contributions)
+  - [Checkstyle guide](#checkstyle-guide)
   - [Documentation](#documentation)
 
 ## List of Current Algorithmics' Classes (Inside package Algorithms)

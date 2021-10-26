@@ -1,36 +1,39 @@
 package com.pd.algorithms;
 
 public class FindMaxSubArrayProduct {
-  int[] arr;
-  int num;
+  private int[] nums;
 
   public FindMaxSubArrayProduct(int[] arr) {
-    this.arr = arr;
-  }
-
-  public int findMaxProduct(int num) {
-    int res = 1;
-    for (int i = 0; i < num; i++) {
-      res *= arr[i];
-    }
-    int pre = res;
-    for (int i = 1; i <= arr.length - num; i++) {
-      int curr = (pre / arr[i - 1]) * arr[i + num - 1];
-      res = Math.max(res, curr);
-      pre = curr;
-    }
-    return res;
-
+    this.nums = arr;
   }
 
   public int findMaxProduct() {
-    int res = arr[0];
-    for (int i = 1; i < arr.length; i++) {
-      int cur = res * arr[i];
-      if (cur > res) {
-        res = cur;
-      }
-    }
-    return res;
+        if (nums.length == 0) {
+            return 0;
+        }
+        
+        int max = Integer.MIN_VALUE, product = 1;
+        
+        for (int i = 0; i < nums.length; i++) {
+            product *= nums[i];
+            max = Math.max(product, max);
+            
+            if (nums[i] == 0) {
+                product = 1;
+            }
+         }
+
+         product = 1;
+        
+         for (int i = nums.length - 1; i >= 0; i--) {
+             product *= nums[i];
+             max = Math.max(product, max);
+             
+             if (nums[i] == 0) {
+                 product = 1;
+             }
+         }
+
+         return max;
   }
 }

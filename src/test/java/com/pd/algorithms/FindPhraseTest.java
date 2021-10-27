@@ -11,13 +11,13 @@ public class FindPhraseTest {
     @DisplayName("3 count")
     void checkCountFor1() {
         FindPhrase fp = new FindPhrase();
-        assertEquals(fp.timesFound("sssssssssppw", "sss"), 3);
+        assertEquals(fp.timesFound("JavaSomeJavaHeyJava", "Java"), 3);
     }
 
     @Test
     @DisplayName("0 count")
     void checkCountFor0() {
         FindPhrase fp = new FindPhrase();
-        assertEquals(fp.timesFound("sssssssssppw", "xxx"), 0);
+        assertEquals(fp.timesFound("JavaSomeJavaHeyJava", "Python"), 0);
     }
 }

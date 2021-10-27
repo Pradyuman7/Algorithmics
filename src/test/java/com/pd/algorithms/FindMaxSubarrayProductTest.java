@@ -11,7 +11,7 @@ class FindMaxSubarrayProductTest {
   void maxProduct1() {
     // given
     int[] testArray = new int[]{2,3,-2,4};
-    FindMaxSubArrayProduct maxProduct = new FindMaxSubArrayProduct(testArray);
+    FindMaxSubarrayProduct maxProduct = new FindMaxSubarrayProduct(testArray);
 
     // when
     int result = maxProduct.findMaxProduct();
@@ -25,12 +25,12 @@ class FindMaxSubarrayProductTest {
   void maxProduct2() {
     // given
     int[] testArray = new int[]{-2,0,-1};
-    FindMaxSubArrayProduct maxProduct = new FindMaxSubArrayProduct(testArray);
+    FindMaxSubarrayProduct maxProduct = new FindMaxSubarrayProduct(testArray);
 
     // when
     int result = maxProduct.findMaxProduct();
 
     // then
-    Assertions.assertEquals(6, result);
+    Assertions.assertEquals(0, result);
   }
 }

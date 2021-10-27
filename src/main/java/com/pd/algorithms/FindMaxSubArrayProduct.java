@@ -1,9 +1,9 @@
 package com.pd.algorithms;
 
-public class FindMaxSubarrayProduct {
+public class FindMaxSubArrayProduct {
   private int[] nums;
 
-  public FindMaxSubarrayProduct(int[] arr) {
+  public FindMaxSubArrayProduct(int[] arr) {
     this.nums = arr;
   }
 

@@ -1,28 +1,63 @@
 # Algorithmics
 
 ![Algorithmics](https://github.com/Pradyuman7/Algorithmics/actions/workflows/main.yml/badge.svg) 
-[![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](https://github.com/dwyl/esta/issues)
+[![Contributions welcome](https://img.shields.io/badge/Contributions-welcome-brightgreen.svg?style=flat)](https://github.com/Pradyuman7/Algorithmics/issues)
 [![](https://www.jitpack.io/v/Pradyuman7/Algorithmics.svg)](https://www.jitpack.io/#Pradyuman7/Algorithmics)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
 
-A Java library for people who want to implement some algorithms quickly. :confetti_ball:
+A Java library for people who want to implement some algorithms quickly :confetti_ball:
 
 <!-- TABLE OF CONTENTS -->
 ## Table of Contents
 
-  - [List of Current Algorithmics' Classes (Inside Package Algorithms)](#list-of-current-algorithmics-classes-inside-package-algorithms)
   - [How to Use](#how-to-use)
+  - [List of Current Algorithmics' Classes (Inside Package Algorithms)](#list-of-current-algorithmics-classes-inside-package-algorithms)
+  - [Documentation](#documentation)
   - [License](#license)
   - [Contributions](#contributions)
   - [Checkstyle guide](#checkstyle-guide)
-  - [Documentation](#documentation)
+
+## How to use
+
+Algorithmics can be added in your project via (you can match the version with the version available):
+
+**Maven**
+```
+<repositories>
+    <repository>
+	  <id>jitpack.io</id>
+	  <url>https://www.jitpack.io</url>
+    </repository>
+</repositories>
+```
+```
+<dependency>
+    <groupId>com.github.Pradyuman7</groupId>
+    <artifactId>Algorithmics</artifactId>
+    <version>V1.1</version>
+</dependency>
+```
+
+**Gradle**
+```
+allprojects {
+    repositories {
+        maven { url 'https://www.jitpack.io' }
+    }
+}
+```
+```
+dependencies {
+    implementation 'com.github.Pradyuman7:Algorithmics:V1.1'
+}
+```  
 
 ## List of Current Algorithmics' Classes (Inside package Algorithms)
 
 | Name | Description |
 |---|---|
 | `SievePrimesAlgorithm` | Find and Generate Prime numbers using Sieve's algorithm. |
-| `NumOccurencesOfCharacters` | Find number of occurences of different/particular character(s) in a string. |
+| `OccurencesOfCharacters` | Find number of occurences of different/particular character(s) in a string. |
 | `Divisors` | Find number of divisors of the number of your choice. |
 | `CheckPrime` | Check if a number is prime or not, efficiently. |
 | `GetDivSquareSum` | Get sum of squares of divisors of a number efficiently. |
@@ -33,13 +68,12 @@ A Java library for people who want to implement some algorithms quickly. :confet
 | `FindPhrase` | Find number of occurences of a smaller string in a bigger string. |
 | `Find2DMatrixSum` | Find sum of 2d matrix with long and int return types. |
 | `CountDistinctElements` | Returns the number of distinct elements in an integer array |
-| `CountSorting` | Returns the sorted array after sorting via count sort algorithm |
+| `CountSort` | Returns the sorted array after sorting via count sort algorithm |
 | `MatrixMultiplication2D` | Returns the multiplied matrix (if possible or returns null) |
 | `PerfectPowerAlgorithm` | Returns the root and the exponent in an array of size 2 for a given natural number n (or null) |
 
-## How to use
-
-### Migrated to a maven project now, thanks to [sliard](https://github.com/sliard).
+## Documentation
+Kindly refer [Docs.md](./Docs.md)
 
 ## License
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
@@ -58,6 +92,3 @@ If you're new to GitHub and/or contributing to open source projects, please refe
 
 This repository follows the [Google Java Style Guide](https://google.github.io/styleguide/javaguide.html). Feel free to download formatting presets for your IDE from [Google's GitHub repository](https://github.com/google/styleguide).
 We have set up [checkstyle](https://github.com/Pradyuman7/Algorithmics/blob/master/checkstyle.xml) to enforce them throughout this project. You can check locally if your changes comply with these guidelines by executing the maven goal `compile`. If the build of your Pull Request fails make sure to checkout the logs in the checks of your Pull Request to see what exactly does not comply with our guidelines. If you think that you are still complying with the guidelines, feel free to make corresponding changes to our [checkstyle file](https://github.com/Pradyuman7/Algorithmics/blob/master/checkstyle.xml).
-
-## Documentation
-Kindly refer [Docs.md](./Docs.md)

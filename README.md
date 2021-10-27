@@ -52,7 +52,7 @@ dependencies {
 }
 ```  
 
-## List of Current Algorithmics' Classes (Inside package Algorithms)
+## List of Current Algorithmics' Classes
 
 | Name | Description |
 |---|---|

@@ -13,6 +13,7 @@ A Java library for people who want to implement some algorithms quickly. :confet
   - [How to Use](#how-to-use)
   - [License](#license)
   - [Contributions](#contributions)
+  - [Checkstyle guide](#checkstyle-guide)
   - [Documentation](#documentation)
 
 ## List of Current Algorithmics' Classes (Inside package Algorithms)
@@ -48,17 +49,9 @@ A Java library for people who want to implement some algorithms quickly. :confet
 
 Do you want to contribute to Algorithmics? Awesome, there're not many rules but just a few things to consider before making a PR, simply refer to [CONTRIBUTING.md](./CONTRIBUTING.md) and some guidelines in the available issues.
 
-1. Fork the Project and Clone the repository.
-   > `git clone https://github.com/Pradyuman7/Algorithmics.git`
-2. Create your Feature Branch 
-   > `git checkout -b feature/AmazingFeature`
-3. Commit your Changes 
-   > `git commit -m 'feat: Add some AmazingFeature'`
-4. Push to the Branch
-   > `git push -u origin feature/AmazingFeature`
-5. Open a Pull Request
-
 Contributions are what make the open source community such an amazing place to be learn, inspire, and create. Any contributions you make are **greatly appreciated**.
+
+If you're new to GitHub and/or contributing to open source projects, please refer this [resource](https://docs.github.com/en/github/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-a-pull-request).
 
 ## Checkstyle guide
 

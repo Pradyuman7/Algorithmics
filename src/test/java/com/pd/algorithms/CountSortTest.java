@@ -1,4 +1,4 @@
-package sorting;
+package com.pd.algorithms;
 
 import static org.junit.jupiter.api.Assertions.assertArrayEquals;
 
@@ -11,7 +11,7 @@ public class CountSortTest {
   @DisplayName("Non repeating positive elements in array ")
   void count_sort() {
     int[] arr = {1, 3, 9, 6, 2, 4};
-    CountSorting cs = new CountSorting();
+    CountSort cs = new CountSort();
     assertArrayEquals(new int[]{1, 2, 3, 4, 6, 9}, cs.countSort(arr.length, arr));
   }
 
@@ -19,7 +19,7 @@ public class CountSortTest {
   @DisplayName("Repeating positive elements in array ")
   void count_sort_with_duplicate() {
     int[] arr = {1, 3, 9, 1, 2, 3};
-    CountSorting cs = new CountSorting();
+    CountSort cs = new CountSort();
     assertArrayEquals(new int[]{1, 1, 2, 3, 3, 9}, cs.countSort(arr.length, arr));
   }
 }

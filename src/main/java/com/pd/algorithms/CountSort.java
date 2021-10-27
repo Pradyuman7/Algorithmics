@@ -1,6 +1,6 @@
-package sorting;
+package com.pd.algorithms;
 
-public class CountSorting {
+public class CountSort {
   //ALL ABOUT COUNT SORTING
   // Counting sort is a sorting algorithm that sorts the elements of an array by counting
   // the number of occurrences of each unique element in the array.The count is stored in

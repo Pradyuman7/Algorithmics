@@ -1,6 +1,5 @@
 package com.pd.algorithms;
 
-
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
@@ -12,7 +11,7 @@ class FindMaxSubarrayProductTest {
   void maxProduct1() {
     // given
     int[] testArray = new int[]{2,3,-2,4};
-    FindMaxSubarrayProduct maxProduct = new FindMaxSubarrayProduct(testArray);
+    FindMaxSubArrayProduct maxProduct = new FindMaxSubArrayProduct(testArray);
 
     // when
     int result = maxProduct.findMaxProduct();
@@ -26,7 +25,7 @@ class FindMaxSubarrayProductTest {
   void maxProduct2() {
     // given
     int[] testArray = new int[]{-2,0,-1};
-    FindMaxSubarrayProduct maxProduct = new FindMaxSubarrayProduct(testArray);
+    FindMaxSubArrayProduct maxProduct = new FindMaxSubArrayProduct(testArray);
 
     // when
     int result = maxProduct.findMaxProduct();

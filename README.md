@@ -11,7 +11,7 @@ A Java library for people who want to implement some algorithms quickly :confett
 ## Table of Contents
 
   - [How to Use](#how-to-use)
-  - [List of Current Algorithmics' Classes (Inside Package Algorithms)](#list-of-current-algorithmics-classes-inside-package-algorithms)
+  - [List of Current Algorithmics' Classes](#list-of-current-algorithmics-classes)
   - [Documentation](#documentation)
   - [License](#license)
   - [Contributions](#contributions)
@@ -19,9 +19,9 @@ A Java library for people who want to implement some algorithms quickly :confett
 
 ## How to use
 
-Algorithmics can be added in your project via (you can match the version with the version available):
+Algorithmics can be added in your project via:
 
-**Maven**
+**Maven** (you can match the version with the version available)
 ```
 <repositories>
     <repository>
@@ -38,7 +38,7 @@ Algorithmics can be added in your project via (you can match the version with th
 </dependency>
 ```
 
-**Gradle**
+**Gradle** (you can match the version with the version available)
 ```
 allprojects {
     repositories {
@@ -73,14 +73,14 @@ dependencies {
 | `PerfectPowerAlgorithm` | Returns the root and the exponent in an array of size 2 for a given natural number n (or null) |
 
 ## Documentation
-Kindly refer [Docs.md](./Docs.md)
+Kindly refer [Docs.md](Docs.md)
 
 ## License
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
 
 **Algorithmics** is under *MIT License*. See **[License](License.md)** for more info.
 
-## Contributions
+## Contributing to Algorithmics
 
 Do you want to contribute to Algorithmics? Awesome, there're not many rules but just a few things to consider before making a PR, simply refer to [CONTRIBUTING.md](./CONTRIBUTING.md) and some guidelines in the available issues.
 

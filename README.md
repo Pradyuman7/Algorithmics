@@ -14,7 +14,7 @@ A Java library for people who want to implement some algorithms quickly :confett
   - [List of Current Algorithmics' Classes](#list-of-current-algorithmics-classes)
   - [Documentation](#documentation)
   - [License](#license)
-  - [Contributions](#contributions)
+  - [Contributions](#contributing-to-algorithmics)
   - [Checkstyle guide](#checkstyle-guide)
 
 ## How to use
@@ -22,7 +22,7 @@ A Java library for people who want to implement some algorithms quickly :confett
 Algorithmics can be added in your project via:
 
 **Maven** (you can match the version with the version available)
-```
+```xml
 <repositories>
     <repository>
 	  <id>jitpack.io</id>
@@ -30,7 +30,7 @@ Algorithmics can be added in your project via:
     </repository>
 </repositories>
 ```
-```
+```xml
 <dependency>
     <groupId>com.github.Pradyuman7</groupId>
     <artifactId>Algorithmics</artifactId>
@@ -39,14 +39,14 @@ Algorithmics can be added in your project via:
 ```
 
 **Gradle** (you can match the version with the version available)
-```
+```gradle
 allprojects {
     repositories {
         maven { url 'https://www.jitpack.io' }
     }
 }
 ```
-```
+```gradle
 dependencies {
     implementation 'com.github.Pradyuman7:Algorithmics:V1.1'
 }

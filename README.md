@@ -75,7 +75,7 @@ dependencies {
 | `TwoSum`                 | Returns if two numbers in an array sum to a target                                                       |
 
 ## Documentation
-Kindly refer [Docs.md](Docs.md)
+Kindly refer the [docs](docs/ReadMe.md).
 
 ## License
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)

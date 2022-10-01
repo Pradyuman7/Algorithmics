@@ -72,6 +72,7 @@ dependencies {
 | `MatrixMultiplication2D` | Returns the multiplied matrix (if possible or returns null)                                              |
 | `PerfectPowerAlgorithm`  | Returns the root and the exponent in an array of size 2 for a given natural number n (or null)           |
 | `SearchWordInMatrix`     | Returns if a word (string) exist in a 2D character array                                                 |
+| `TwoSum`                 | Returns if two numbers in an array sum to a target                                                       |
 
 ## Documentation
 Kindly refer [Docs.md](Docs.md)

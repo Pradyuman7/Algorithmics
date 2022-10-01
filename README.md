@@ -54,23 +54,24 @@ dependencies {
 
 ## List of Current Algorithmics' Classes
 
-| Name | Description |
-|---|---|
-| `SievePrimesAlgorithm` | Find and Generate Prime numbers using Sieve's algorithm. |
-| `OccurencesOfCharacters` | Find number of occurences of different/particular character(s) in a string. |
-| `Divisors` | Find number of divisors of the number of your choice. |
-| `CheckPrime` | Check if a number is prime or not, efficiently. |
-| `GetDivSquareSum` | Get sum of squares of divisors of a number efficiently. |
-| `BinarySearch` | Search result for a number in an array of integers. |
-| `MaxSubArraySum` | Find the maximum continuous sub array sum in a given array. |
+| Name                     | Description                                                                                              |
+|--------------------------|----------------------------------------------------------------------------------------------------------|
+| `SievePrimesAlgorithm`   | Find and Generate Prime numbers using Sieve's algorithm.                                                 |
+| `OccurencesOfCharacters` | Find number of occurences of different/particular character(s) in a string.                              |
+| `Divisors`               | Find number of divisors of the number of your choice.                                                    |
+| `CheckPrime`             | Check if a number is prime or not, efficiently.                                                          |
+| `GetDivSquareSum`        | Get sum of squares of divisors of a number efficiently.                                                  |
+| `BinarySearch`           | Search result for a number in an array of integers.                                                      |
+| `MaxSubArraySum`         | Find the maximum continuous sub array sum in a given array.                                              |
 | `FindMaxSubArrayProduct` | Find the maximum continuous sub array product in a given array of fixed length and no length constraint. |
-| `Exponent` | Calculate exponents of natural numbers. |
-| `FindPhrase` | Find number of occurences of a smaller string in a bigger string. |
-| `Find2DMatrixSum` | Find sum of 2d matrix with long and int return types. |
-| `CountDistinctElements` | Returns the number of distinct elements in an integer array |
-| `CountSort` | Returns the sorted array after sorting via count sort algorithm |
-| `MatrixMultiplication2D` | Returns the multiplied matrix (if possible or returns null) |
-| `PerfectPowerAlgorithm` | Returns the root and the exponent in an array of size 2 for a given natural number n (or null) |
+| `Exponent`               | Calculate exponents of natural numbers.                                                                  |
+| `FindPhrase`             | Find number of occurences of a smaller string in a bigger string.                                        |
+| `Find2DMatrixSum`        | Find sum of 2d matrix with long and int return types.                                                    |
+| `CountDistinctElements`  | Returns the number of distinct elements in an integer array                                              |
+| `CountSort`              | Returns the sorted array after sorting via count sort algorithm                                          |
+| `MatrixMultiplication2D` | Returns the multiplied matrix (if possible or returns null)                                              |
+| `PerfectPowerAlgorithm`  | Returns the root and the exponent in an array of size 2 for a given natural number n (or null)           |
+| `SearchWordInMatrix`     | Returns if a word (string) exist in a 2D character array                                                 |
 
 ## Documentation
 Kindly refer [Docs.md](Docs.md)
@@ -82,9 +83,9 @@ Kindly refer [Docs.md](Docs.md)
 
 ## Contributing to Algorithmics
 
-Do you want to contribute to Algorithmics? Awesome, there're not many rules but just a few things to consider before making a PR, simply refer to [CONTRIBUTING.md](./CONTRIBUTING.md) and some guidelines in the available issues.
+Do you want to contribute to Algorithmics? Awesome, there are not many rules but just a few things to consider before making a PR, simply refer to [CONTRIBUTING.md](./CONTRIBUTING.md) and some guidelines in the available issues.
 
-Contributions are what make the open source community such an amazing place to be learn, inspire, and create. Any contributions you make are **greatly appreciated**.
+Contributions are what make the open source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
 
 If you're new to GitHub and/or contributing to open source projects, please refer this [resource](https://docs.github.com/en/github/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-a-pull-request).
 

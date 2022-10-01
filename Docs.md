@@ -17,13 +17,14 @@
 | `CountSorting` | Returns the sorted array after sorting via count sort algorithm |
 | `MatrixMultiplication2D` | Returns the multiplied matrix (if possible or returns null) |
 | `PerfectPowerAlgorithm` | Returns the root and the exponent in an array of size 2 for a given natural number n (or null) |
+| `SearchWordInMatrix`     | Returns if a word (string) exist in a 2D character array                                                 |
 
 # Detailed Explanation
 You can also refer the tests for all the algorithms in the project for more usage examples.
 
 ## **SievePrimesAlgorithm**
 
-This class helps you to find if a number is prime or not, for number upto 1 million, within a millisecond. 
+This class helps you find if a number is prime or not, for number upto 1 million, within a millisecond. 
 
 > To use this library, just make an object of this class, and call method `start()` in the beginning of your program. After that, just use `isPrime()` method to find boolean value corresponding to the number which is prime or not.
 
@@ -364,5 +365,27 @@ public static void main(String[] args){
         PerfectPowerAlgorithm perfectPower = new PerfectPowerAlgorithm();
         System.out.println(perfectPower.isPerfectPower(0));
         // returns int array of size two or null otherwise
+}
+```
+
+## **SearchWordInMatrix**
+
+Searches a word in a 2D character matrix
+
+> To use this class, just use SearchWordInMatrix.exist(characterArray, word) inside the main class
+
+```java
+public boolean exist(char[][] array, string word) {
+        //returns the result in a boolean form
+}
+```
+
+Example code, for understanding:
+
+```java
+public static void main(String[] args) {
+        SearchWordInMatrix searchWordInMatrix = new SearchWordInMatrix();
+        char[][] board = {{'A','B','C','E'},{'S','F','C','S'},{'A','D','E','E'}};
+        System.out.println(searchWordInMatrix.exist(board, "ABZDC"));
 }
 ```

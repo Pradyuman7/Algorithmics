@@ -1,6 +1,6 @@
 # Algorithmics
 
-![Algorithmics](https://github.com/Pradyuman7/Algorithmics/actions/workflows/main.yml/badge.svg) 
+![Algorithmics](https://github.com/Pradyuman7/Algorithmics/actions/workflows/main.yml/badge.svg)
 [![Contributions welcome](https://img.shields.io/badge/Contributions-welcome-brightgreen.svg?style=flat)](https://github.com/Pradyuman7/Algorithmics/issues)
 [![](https://www.jitpack.io/v/Pradyuman7/Algorithmics.svg)](https://www.jitpack.io/#Pradyuman7/Algorithmics)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
@@ -56,27 +56,27 @@ allprojects {
 dependencies {
     implementation 'com.github.Pradyuman7:Algorithmics:V1.1'
 }
-```  
+```
 
 ## Algorithmics' Classes
 
-| Name                        | Description                                                                                              | ReadMe                               |
-|-----------------------------|----------------------------------------------------------------------------------------------------------|--------------------------------------|
-| `SievePrimesAlgorithm`      | Find and Generate Prime numbers using Sieve's algorithm.                                                 | [here](SievePrimesAlgorithm.md)      |
-| `NumOccurencesOfCharacters` | Find number of occurrences of different/particular character(s) in a string.                             | [here](NumOccurencesOfCharacters.md) |
-| `Divisors`                  | Find number of divisors of the number of your choice.                                                    | [here](Divisors.md)                  |
-| `CheckPrime`                | Check if a number is prime or not, efficiently.                                                          | [here](CheckPrime.md)                |
-| `GetDivSquareSum`           | Get sum of squares of divisors of a number efficiently.                                                  | [here](GetDivSquareSum.md)           |
-| `BinarySearch`              | Search result for a number in an array of integers.                                                      | [here](BinarySearch.md)              |
-| `MaxSubArraySum`            | Find the maximum continuous sub array sum in a given array.                                              | [here](MaxSubArraySum.md)            |
-| `FindMaxSubArrayProduct`    | Find the maximum continuous sub array product in a given array of fixed length and no length constraint. | [here](FindMaxSubArrayProduct.md)    |
-| `Exponent`                  | Calculate exponents of natural numbers.                                                                  | [here](Exponent.md)                  |
-| `FindPhrase`                | Find number of occurrences of a smaller string in a bigger string.                                       | [here](FindPhrase.md)                |
-| `Find2DMatrixSum`           | Find sum of 2d matrix with long and int return types.                                                    | [here](Find2DMatrixSum.md)           |
-| `CountDistinctElements`     | Returns the number of distinct elements in an integer array                                              | [here](CountDistinctElements.md)     |
-| `CountSorting`              | Returns the sorted array after sorting via count sort algorithm                                          | [here](CountSorting.md)              |
-| `MatrixMultiplication2D`    | Returns the multiplied matrix (if possible or returns null)                                              | [here](MatrixMultiplication2D.md)    |
-| `PerfectPowerAlgorithm`     | Returns the root and the exponent in an array of size 2 for a given natural number n (or null)           | [here](PerfectPowerAlgorithm.md)     |
+| Name                        | Description                                                                                              | ReadMe                                    |
+|-----------------------------|----------------------------------------------------------------------------------------------------------|-------------------------------------------|
+| `SievePrimesAlgorithm`      | Find and Generate Prime numbers using Sieve's algorithm.                                                 | [here](docs/SievePrimesAlgorithm.md)      |
+| `NumOccurencesOfCharacters` | Find number of occurrences of different/particular character(s) in a string.                             | [here](docs/NumOccurencesOfCharacters.md) |
+| `Divisors`                  | Find number of divisors of the number of your choice.                                                    | [here](docs/Divisors.md)                  |
+| `CheckPrime`                | Check if a number is prime or not, efficiently.                                                          | [here](docs/CheckPrime.md)                |
+| `GetDivSquareSum`           | Get sum of squares of divisors of a number efficiently.                                                  | [here](docs/GetDivSquareSum.md)           |
+| `BinarySearch`              | Search result for a number in an array of integers.                                                      | [here](docs/BinarySearch.md)              |
+| `MaxSubArraySum`            | Find the maximum continuous sub array sum in a given array.                                              | [here](docs/MaxSubArraySum.md)            |
+| `FindMaxSubArrayProduct`    | Find the maximum continuous sub array product in a given array of fixed length and no length constraint. | [here](docs/FindMaxSubArrayProduct.md)    |
+| `Exponent`                  | Calculate exponents of natural numbers.                                                                  | [here](docs/Exponent.md)                  |
+| `FindPhrase`                | Find number of occurrences of a smaller string in a bigger string.                                       | [here](docs/FindPhrase.md)                |
+| `Find2DMatrixSum`           | Find sum of 2d matrix with long and int return types.                                                    | [here](docs/Find2DMatrixSum.md)           |
+| `CountDistinctElements`     | Returns the number of distinct elements in an integer array                                              | [here](docs/CountDistinctElements.md)     |
+| `CountSorting`              | Returns the sorted array after sorting via count sort algorithm                                          | [here](docs/CountSorting.md)              |
+| `MatrixMultiplication2D`    | Returns the multiplied matrix (if possible or returns null)                                              | [here](docs/MatrixMultiplication2D.md)    |
+| `PerfectPowerAlgorithm`     | Returns the root and the exponent in an array of size 2 for a given natural number n (or null)           | [here](docs/PerfectPowerAlgorithm.md)     |
 
 ## Documentation
 Kindly refer the [docs](docs/ReadMe.md).

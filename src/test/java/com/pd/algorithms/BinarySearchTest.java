@@ -49,6 +49,7 @@ public class BinarySearchTest {
     int[] arr = {};
     BinarySearch bs = new BinarySearch(arr);
 
+    assertFalse(bs.search(0));
     assertFalse(bs.search(1));
 
   }

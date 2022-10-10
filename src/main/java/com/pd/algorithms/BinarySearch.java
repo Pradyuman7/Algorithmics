@@ -8,12 +8,12 @@ public class BinarySearch {
   public int size;
 
   public BinarySearch(int[] arr) {
+    Arrays.sort(arr);
     this.arr = arr;
     this.size = arr.length;
   }
 
   public boolean search(int num) {
-    Arrays.sort(arr);
     return binarySearch(arr, 0, size - 1, num);
   }
 

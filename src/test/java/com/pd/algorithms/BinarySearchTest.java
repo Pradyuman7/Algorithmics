@@ -12,11 +12,21 @@ public class BinarySearchTest {
   @DisplayName("Regular binary search should work")
   void binarySearch() {
 
-    int[] arr = {1, 4, 6, 2, 9};
+    int[] arr = { 1, 4, 6, 2, 9 };
     BinarySearch bs = new BinarySearch(arr);
 
+    assertTrue(bs.search(1));
     assertTrue(bs.search(2));
+    assertTrue(bs.search(4));
+    assertTrue(bs.search(6));
+    assertTrue(bs.search(9));
+
+    assertFalse(bs.search(0));
     assertFalse(bs.search(3));
+    assertFalse(bs.search(5));
+    assertFalse(bs.search(7));
+    assertFalse(bs.search(8));
+    assertFalse(bs.search(10));
 
   }
 
@@ -42,6 +52,5 @@ public class BinarySearchTest {
     assertFalse(bs.search(1));
 
   }
-
 
 }

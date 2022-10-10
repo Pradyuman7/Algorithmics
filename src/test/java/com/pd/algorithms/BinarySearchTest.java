@@ -34,11 +34,11 @@ public class BinarySearchTest {
   @DisplayName("Binary search with duplicates should work")
   void binarySearchWithDuplicates() {
 
-    int[] arr = {1, 4, 6, 1, 2, 9};
+    int[] arr = { 1, 4, 3, 6, 1, 2, 9, 3, 3 };
     BinarySearch bs = new BinarySearch(arr);
 
     assertTrue(bs.search(1));
-    assertFalse(bs.search(3));
+    assertTrue(bs.search(3));
 
   }
 

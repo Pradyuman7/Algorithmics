@@ -18,18 +18,18 @@ public class BinarySearch {
   }
 
   public boolean binarySearch(int[] array, int low, int high, int value) {
-    boolean ans = false;
     while (low <= high) {
       int mid = (high + low) / 2;
       if (array[mid] == value) {
-        ans = true;
-        low = high + 1;
-      } else if (array[mid] > value) {
-        high = mid - 1;
-      } else if (array[mid] < value) {
-        low = mid + 1;
+        return true;
+      }
+
+      if (array[mid] > value) {
+        high = mid - 1; // discard the end of the array
+      } else {
+        low = mid + 1; // discard the beginning of the array
       }
     }
-    return ans;
+    return false;
   }
 }

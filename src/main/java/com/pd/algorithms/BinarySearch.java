@@ -18,20 +18,20 @@ public class BinarySearch {
   }
 
   private boolean binarySearch(int low, int high, int number) {
-    while (low <= high) {
-      int middle = (high + low) / 2;
+    if (low > high) {
+      return false;
+    }
 
-      if (array[middle] == number) {
-        return true;
-      }
+    int middle = (high + low) / 2;
 
-      if (array[middle] > number) {
-        return binarySearch(low, middle - 1, number); // discard the end of the array
-      }
+    if (array[middle] > number) {
+      return binarySearch(low, middle - 1, number); // discard the end of the array
+    }
 
+    if (array[middle] < number) {
       return binarySearch(middle + 1, high, number); // discard the beginning of the array
     }
 
-    return false;
+    return true;
   }
 }

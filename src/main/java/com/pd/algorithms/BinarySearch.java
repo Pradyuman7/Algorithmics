@@ -4,32 +4,34 @@ import java.util.Arrays;
 
 public class BinarySearch {
 
-  public int[] arr;
+  public int[] array;
   public int size;
 
-  public BinarySearch(int[] arr) {
-    Arrays.sort(arr);
-    this.arr = arr;
-    this.size = arr.length;
+  public BinarySearch(int[] array) {
+    Arrays.sort(array);
+    this.array = array;
+    this.size = array.length;
   }
 
-  public boolean search(int num) {
-    return binarySearch(arr, 0, size - 1, num);
+  public boolean search(int number) {
+    return binarySearch(0, size - 1, number);
   }
 
-  public boolean binarySearch(int[] array, int low, int high, int value) {
+  private boolean binarySearch(int low, int high, int number) {
     while (low <= high) {
-      int mid = (high + low) / 2;
-      if (array[mid] == value) {
+      int middle = (high + low) / 2;
+
+      if (array[middle] == number) {
         return true;
       }
 
-      if (array[mid] > value) {
-        high = mid - 1; // discard the end of the array
-      } else {
-        low = mid + 1; // discard the beginning of the array
+      if (array[middle] > number) {
+        return binarySearch(low, middle - 1, number); // discard the end of the array
       }
+
+      return binarySearch(middle + 1, high, number); // discard the beginning of the array
     }
+
     return false;
   }
 }
